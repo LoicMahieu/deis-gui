@@ -16,5 +16,11 @@
     </tr>
   </table>
 
-  <button class="btn btn-primary" ng-click="rollback(release)">Rollback</button>
+  <button
+    class="btn btn-primary"
+    ng-click="rollback(release)"
+    ng-disabled="!release"
+  >
+    Rollback
+  </button>
 </div>
